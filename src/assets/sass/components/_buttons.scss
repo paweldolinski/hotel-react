@@ -1,0 +1,23 @@
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    border: solid 1px $color-gray;
+    background: $color-gray-light;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s;
+
+    &:hover {
+        background: $color-gray-dark;
+        transform: scale(0.95);
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: $screen-md) {
+        width: 130px;
+        height: 35px;
+        font-size: 12px;
+    }
+}

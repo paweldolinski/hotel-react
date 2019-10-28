@@ -1,0 +1,103 @@
+.reviews {
+    background: $color-gray;
+    border: solid 2px $color-gray-dark;
+    border-top: none;
+    width: 100%;
+    margin-top: -17px;
+
+    &__wrapper {
+        display: flex;
+        position: relative;
+        padding: 30px 0;
+
+        @media screen and (max-width: $screen-xs) {
+            padding: 5px 0
+        }
+
+        @media screen and (max-width: $screen-xs) {
+            padding: 15px 0
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translatex(-50%);
+            width: 90%;
+            height: 1px;
+            background: $color-gray-dark;
+        }
+
+        &:nth-last-child(1) {
+            &:after {
+                display: none
+            }
+        }
+    }
+
+    &__left {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__feedback {
+        width: 50px;
+        height: 50px;
+        background: $color-gray-light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        @media screen and (max-width: $screen-sm) {
+            width: 25px;
+            height: 25px;
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: $screen-xs) {
+            width: 20px;
+            height: 20px;
+            font-size: 10px;
+        }
+    }
+
+    &__right {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    &__name {
+        margin-bottom: 5px;
+        width: 100%;
+
+        @media screen and (max-width: $screen-sm) {
+            margin-bottom: 4px;
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: $screen-xs) {
+            margin-bottom: 7px;
+            font-size: 15px;
+        }
+    }
+
+    &__comment {
+        padding-right: 10px;
+
+        @media screen and (max-width: $screen-sm) {
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: $screen-xs) {
+            font-size: 13px;
+            text-align: justify;
+
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    &__bc {
+        position: absolute;
+
+    }
+
+}
