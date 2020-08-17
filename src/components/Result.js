@@ -35,7 +35,7 @@ class Result extends Component {
       showReviews: !this.state.showReviews,
     });
     if (!this.state.firstLoad) {
-      fetch(`http://fake-hotel-api.herokuapp.com/api/reviews?hotel_id=${id}`)
+      fetch(`https://fake-hotel-api.herokuapp.com/api/reviews?hotel_id=${id}`)
         .then((data) => data.json())
         .then((reviews) => {
           this.setState({
