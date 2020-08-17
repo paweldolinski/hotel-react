@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hotel-react/static/css/main.b7e41f00.chunk.css",
+    "main.js": "/hotel-react/static/js/main.d6db51a8.chunk.js",
+    "main.js.map": "/hotel-react/static/js/main.d6db51a8.chunk.js.map",
+    "runtime-main.js": "/hotel-react/static/js/runtime-main.1b6fe825.js",
+    "runtime-main.js.map": "/hotel-react/static/js/runtime-main.1b6fe825.js.map",
+    "static/js/2.0ce06b21.chunk.js": "/hotel-react/static/js/2.0ce06b21.chunk.js",
+    "static/js/2.0ce06b21.chunk.js.map": "/hotel-react/static/js/2.0ce06b21.chunk.js.map",
+    "index.html": "/hotel-react/index.html",
+    "precache-manifest.d34b6f083f149789a53b7c81ce26820c.js": "/hotel-react/precache-manifest.d34b6f083f149789a53b7c81ce26820c.js",
+    "service-worker.js": "/hotel-react/service-worker.js",
+    "static/css/main.b7e41f00.chunk.css.map": "/hotel-react/static/css/main.b7e41f00.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b6fe825.js",
+    "static/js/2.0ce06b21.chunk.js",
+    "static/css/main.b7e41f00.chunk.css",
+    "static/js/main.d6db51a8.chunk.js"
+  ]
+}
