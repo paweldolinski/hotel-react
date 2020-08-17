@@ -20,15 +20,10 @@ class Hotels extends Component {
     fetch("https://fake-hotel-api.herokuapp.com/api/hotels?count=5")
       .then((blob) => blob.json())
       .then((hotels) => {
-        this.setState(
-          {
-            data: hotels,
-            isLoading: false,
-          },
-          () => {
-            console.log(this.state);
-          }
-        );
+        this.setState({
+          data: hotels,
+          isLoading: false,
+        });
       })
       .catch((error) => this.setState({ error, isLoading: false }));
   };
